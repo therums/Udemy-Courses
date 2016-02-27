@@ -1,0 +1,42 @@
+/*   BLOG   */
+/* Colors Used */
+/*  border color: #bdc3c7*/
+/*date color: #3498db*/
+/* h2 color: #2c3e50*/
+/*  font: source sans pro */
+/* date is in all caps -- spacing if a little further apart*/
+/*horizontal rule RESEARCH - hr styles */
+body {
+	border: 20px solid #bdc3c7;
+	font-family: 'Source Sans Pro', sans-serif; 
+	padding: 20px;
+	margin: 20px auto;
+	max-width: 700px;
+	width: 80%;
+
+}
+.date {
+	color: #3498db;
+	letter-spacing: 0.2rem;
+	text-transform: uppercase;
+}
+h2 {
+	color: #2c3e50;
+	font-size: 2.0rem;
+}
+.quote {
+	border-left: 5px solid #bdc3c7;
+	padding-left: 5px;
+}
+.post {
+	margin-bottom: 20px;
+}
+/* Gradient color1 - color2 - color1 */
+
+hr.style1 {
+  height: 30px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+}

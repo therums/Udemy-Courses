@@ -1,0 +1,31 @@
+/*font-family*/
+p {
+	font-family: Arial;
+}
+h1 {
+	font-family: Georgia;
+}
+/*if the font family has a number with it then you'll need to put it in "10Arial"*/
+
+/*font size -- can use px or ems  can use the browser console to pre-view font sizes*/
+/*MDN page for font size regarding ems (an em is dynamic) */
+body {
+	font-size: 62.5%;
+}
+h1 {
+	font-size: 30px;
+}
+p {
+	font-size: 15px;
+}
+span {
+	font-size: 2.0em;
+}
+
+/*Font Weight*/
+
+/*Line Height*/
+
+/*Text Align*/
+
+/*Text Decoration*/

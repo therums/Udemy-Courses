@@ -1,0 +1,41 @@
+<!-- radio button -->
+<!-- select tag -->
+<!-- textarea tag -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inputs Demo</title>
+</head>
+<body>
+
+<p>Do you prefer cats or dogs?</p>
+
+<form>
+<!-- Needs a name for it to be submitted as a value -->
+	<label for="dogs">Dogs: </label>
+	<input name="petChoice" id="dogs" type="radio" value="DOGS">
+
+	<label for="cats">Cats:</label>
+	<input name="petChoice" id="cats" type="radio" value="CATS">
+
+	<p>What's your current mood?</p>
+
+<!-- Give drop down menus - the value gives it the attribute in what is being recorded instead of :-) face (mood)-->
+	<select name="mood">
+		<option value="happy">:)</option>
+		<option value="neutral">:|</option>
+		<option value="sad">:(</option>
+	</select>	
+
+	<input type="text">
+
+	<textarea name="paragraph" rows="10" cols="10"></textarea>
+<!-- button is like a submit button that makes the information action -->
+	<button>Go!</button>
+</form>
+<!-- Text area is a separate form control <textarea> that can be specified how big it is in rows and columns  -->
+
+
+</body>
+</html>

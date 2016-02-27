@@ -1,0 +1,11 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+  	"build": "browserify app.js -o bundle.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

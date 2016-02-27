@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms Demo</title>
+</head>
+<body>
+
+<h1>Login</h1>
+
+<!-- action - where the form sends data to -->
+<!-- method - what HTTP method to use (get/post) -->
+
+<!-- <form action="http://www.wikipedia.org">
+	<label>
+		Username: 
+		<input name="username" type="text" placeholder="username">
+	</label>
+	<label>
+		Password:
+		<input name="password" type="password" placeholder="password">
+	</label>
+	
+	<input type="submit">
+</form> -->
+
+
+<!-- <form action="http://www.wikipedia.org">
+	<label for="username">
+		Username:
+		<input id="username" name="username" type="text" placeholder="username">
+	</label>
+	<label>
+		Password:
+		<input id="password" name="password" type="password" placeholder="password">
+	</label>
+	<input type="submit">
+</form> -->
+<form action="http://www.wikipedia.org">
+<!-- Using the for attribute we connect the label to input (connect the data)-->
+	<label for="username" >Username</label>
+	<input id="username" type="text" placeholder="username">
+	
+	<label for="password">Password</label>
+	<input id="password" type="password" placeholder="password">
+	
+	<input type="submit">
+</form>
+
+
+</body>
+</html>

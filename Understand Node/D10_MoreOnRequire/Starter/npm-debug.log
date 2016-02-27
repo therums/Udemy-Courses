@@ -1,0 +1,59 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'package.json',
+1 verbose cli   '--save' ]
+2 info using npm@3.3.12
+3 info using node@v5.5.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData package.json
+8 silly fetchOtherPackageData package.json
+9 silly cache add args [ 'package.json', null ]
+10 verbose cache add spec package.json
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'package.json',
+11 silly cache add   scope: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'package.json',
+11 silly cache add   spec: '/Users/sharonrumsey/Documents/Udemy Courses/Understand Node/D10_MoreOnRequire/Starter/package.json',
+11 silly cache add   type: 'local' }
+12 silly addLocalTarball shasum (computed) 058376a912243fb9688f5abf7b341c98110fa145
+13 verbose addTmpTarball /Users/sharonrumsey/Documents/Udemy Courses/Understand Node/D10_MoreOnRequire/Starter/package.json not in flight; adding
+14 verbose addTmpTarball validating metadata from /Users/sharonrumsey/Documents/Udemy Courses/Understand Node/D10_MoreOnRequire/Starter/package.json
+15 verbose tar unpack /Users/sharonrumsey/Documents/Udemy Courses/Understand Node/D10_MoreOnRequire/Starter/package.json
+16 verbose tar unpacking to /var/folders/_x/b577mm7j25x_r2ww9_hymb400000gn/T/npm-3777-d0722151/unpack-48f0a5aa562a490ea866a0c2bda5290e
+17 silly gentlyRm /var/folders/_x/b577mm7j25x_r2ww9_hymb400000gn/T/npm-3777-d0722151/unpack-48f0a5aa562a490ea866a0c2bda5290e is being purged
+18 verbose gentlyRm don't care about contents; nuking /var/folders/_x/b577mm7j25x_r2ww9_hymb400000gn/T/npm-3777-d0722151/unpack-48f0a5aa562a490ea866a0c2bda5290e
+19 silly gunzTarPerm modes [ '755', '644' ]
+20 error not a package /Users/sharonrumsey/Documents/Udemy Courses/Understand Node/D10_MoreOnRequire/Starter/package.json
+21 error addLocal Could not install /Users/sharonrumsey/Documents/Udemy Courses/Understand Node/D10_MoreOnRequire/Starter/package.json
+22 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/var/folders/_x/b577mm7j25x_r2ww9_hymb400000gn/T/npm-3777-d0722151/unpack-48f0a5aa562a490ea866a0c2bda5290e/package.json'
+22 silly fetchPackageMetaData     at Error (native)
+22 silly fetchPackageMetaData  error for package.json { [Error: ENOENT: no such file or directory, open '/var/folders/_x/b577mm7j25x_r2ww9_hymb400000gn/T/npm-3777-d0722151/unpack-48f0a5aa562a490ea866a0c2bda5290e/package.json']
+22 silly fetchPackageMetaData   errno: -2,
+22 silly fetchPackageMetaData   code: 'ENOENT',
+22 silly fetchPackageMetaData   syscall: 'open',
+22 silly fetchPackageMetaData   path: '/var/folders/_x/b577mm7j25x_r2ww9_hymb400000gn/T/npm-3777-d0722151/unpack-48f0a5aa562a490ea866a0c2bda5290e/package.json' }
+23 silly rollbackFailedOptional Starting
+24 silly rollbackFailedOptional Finishing
+25 silly runTopLevelLifecycles Starting
+26 silly runTopLevelLifecycles Finishing
+27 silly install printInstalled
+28 verbose stack Error: ENOENT: no such file or directory, open '/var/folders/_x/b577mm7j25x_r2ww9_hymb400000gn/T/npm-3777-d0722151/unpack-48f0a5aa562a490ea866a0c2bda5290e/package.json'
+28 verbose stack     at Error (native)
+29 verbose cwd /Users/sharonrumsey/Documents/Udemy Courses/Understand Node/D10_MoreOnRequire/Starter
+30 error Darwin 15.3.0
+31 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "package.json" "--save"
+32 error node v5.5.0
+33 error npm  v3.3.12
+34 error path /var/folders/_x/b577mm7j25x_r2ww9_hymb400000gn/T/npm-3777-d0722151/unpack-48f0a5aa562a490ea866a0c2bda5290e/package.json
+35 error code ENOENT
+36 error errno -2
+37 error syscall open
+38 error enoent ENOENT: no such file or directory, open '/var/folders/_x/b577mm7j25x_r2ww9_hymb400000gn/T/npm-3777-d0722151/unpack-48f0a5aa562a490ea866a0c2bda5290e/package.json'
+38 error enoent This is most likely not a problem with npm itself
+38 error enoent and is related to npm not being able to find a file.
+39 verbose exit [ -2, true ]

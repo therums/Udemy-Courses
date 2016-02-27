@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+</head>
+<body>
+<!-- No backend at this time, but what a form will look like -->
+	<h1>Forms</h1>
+		<p>Different types of inputs for forms</p>
+		<p>Search MDN for input information</p>
+		<p>Different attributes for input are listed</p>
+	<h1>Sign In</h1>
+	<!-- action - where the form sends data to -->
+	<!-- method - what HTTP method (get/post) -->
+	<!-- form directly below will load username and password in the url - not how it's done -->
+		<form>
+			<input name="username" type="text" placeholder="username">
+			<input name="password" type="password" placeholder="password">
+			<input type="submit">
+		</form>
+	<!-- Example of the form going to url to record data -->
+		<form action="http://www.wikipedia.org">
+			<input name="username" type="text" placeholder="username">
+			<input name="password" type="password" placeholder="password">
+			<input type="submit">
+		</form>
+	<h1>other examples</h1>
+		<form>
+			<input type="color">
+			<button>Login</button>
+			<input type="radio">
+			<button>Submit</button>
+			<input type="submit">
+		</form>
+</body>
+</html>

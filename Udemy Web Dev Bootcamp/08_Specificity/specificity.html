@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Specificity</title>
+	<style type="text/css">
+		body {
+			color: red;
+		}
+		ul {
+			color: purple;
+		}
+		li {
+			color: orange;
+		}
+		.highlight {
+			color: blue;
+		}
+		#special {
+			color: green;
+		}
+	</style>
+</head>
+<body>
+	<p>Hello! If you set a property on a parent you don't have to select the child to change elements of it</p>
+	<p>the decendant of style will be applied over previous settings</p>
+	<ul>
+		<li id="special" class="highlight">John</li>
+		<li>Paul</li>
+		<li>George</li>
+		<li class="highlight">Ringo</li>
+	</ul>
+	<h1>Specificity</h1>
+	<p>For CSS to decide which one wins in styling - the more specific will win so if you put in styling for the whole body and then styling for a ul then the more specific styling will win.</p>
+	<h2>Decendants will win</h2>
+	<p>Then if you give a class for a specific element then it will win.</p>
+	<a href="http://developer.mozilla.org/en-US/docs/Web/CSS/Specificity">How Specificity is Calculated</a>
+	<p>a calculator is used for how specificity is used. </p>
+	<a href="https://specificity.keegan.st/">Specificity Calculator</a>
+</body>
+</html>
