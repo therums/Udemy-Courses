@@ -9,10 +9,7 @@ import React, {Component} from 'react';
 // only class based components can have state
 class SearchBar extends Component {
 	constructor(props) {
-		// calling the parent method with super
 		super(props);
-		// initialize state and give properties
-		// typing in searchbar this updates the value
 		this.state = { term: '' };
 	}
 	render () {
@@ -20,10 +17,9 @@ class SearchBar extends Component {
 			<div>
 				<input 
 					value={this.state.term}
-					onChange={event => this.setState({ term: event.target.value})} />;
+					onChange={event => this.setState({ term: event.target.value})} />
 			</div>
 		);
 	}
 }
-
 export default SearchBar;
