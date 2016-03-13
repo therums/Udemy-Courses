@@ -9,6 +9,7 @@
   "author": "Sharon Rumsey",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.15.0",
     "bootstrap": "^3.3.6"
   }
 }

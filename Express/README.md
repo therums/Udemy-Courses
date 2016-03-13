@@ -9,3 +9,6 @@ Projects Sections
 What will learn
 how to install node and express
 htttp servers work
+
+to run the server go to the top folder and type in the terminal
+node app

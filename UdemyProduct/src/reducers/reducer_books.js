@@ -5,6 +5,9 @@ export default function() {
 		{title: 'Javascript'},
 		{title: 'Harry Potter'},
 		{title: 'The Three Towers'},
-		{title: 'Eloquent Javascript'}
+		{title: 'another book'},
+		{title: 'Eloquent Javascript'},
+		{title: 'Gone with the wind'},
+		{title: 'Javascript is sexy'}
 	]
 }
