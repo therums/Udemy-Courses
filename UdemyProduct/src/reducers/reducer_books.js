@@ -4,7 +4,7 @@ export default function() {
 	return [
 		{title: 'Javascript'},
 		{title: 'Harry Potter'},
-		{title: 'The Three Towers'}
+		{title: 'The Three Towers'},
 		{title: 'Eloquent Javascript'}
 	]
 }
